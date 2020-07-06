@@ -1,24 +1,18 @@
+
 public class Point {
-    int x;
-    int y;
-    boolean c;
+	private int row;
+	private int col;
 
-    public Point(int a, int b){
-        x = a;
-        y = b;
-        c = false;
-    }
+	public Point(int x, int y) {
+		this.row = x;
+		this.col = y;
+	}
 
-    public int getX(){
-        return x;
-    }
-    public int getY(){
-        return y;
-    }
-    public boolean isC(){
-        return c;
-    }
-    public void setC(boolean c){
-        this.c = c;
-    }
+	public int getRow() {
+		return row;
+	}
+
+	public int getCol() {
+		return col;
+	}
 }
